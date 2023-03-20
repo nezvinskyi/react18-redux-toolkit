@@ -1,27 +1,19 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
+import Booklist from './components/Booklist';
 
-function Greeting() {
+function App() {
   return (
     <div>
-      <Person />
-      <Message />
+      <Booklist />
     </div>
   );
 }
-
-export const Person = () => {
-  return <div>This person</div>;
-};
-
-export const Message = () => {
-  return <div>This person</div>;
-};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <StrictMode>
-    <Greeting />
+    <App />
   </StrictMode>
 );
