@@ -2,11 +2,14 @@ import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import Booklist from './components/Booklist';
 
+import './styles/index.css';
+
 function App() {
   return (
-    <div>
+    <>
+      <h1>Amazon Best Sellers</h1>
       <Booklist />
-    </div>
+    </>
   );
 }
 

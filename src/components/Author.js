@@ -1,4 +1,4 @@
-const Author = () => {
-  return <h4>James Clear</h4>;
+const Author = ({ author }) => {
+  return <h4>{author}</h4>;
 };
 export default Author;
